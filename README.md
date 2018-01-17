@@ -6,3 +6,4 @@ This repository is a prototype for a web app created in Graphic Design's Web Dev
 
 - Marwan Mansour <https://github.com/MarMansour>
 - Alexandra Philip <https://github.com/AlexandraPhilip>
+- Victoria Doherty <https://github.com/VikkieD>
