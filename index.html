@@ -2,20 +2,74 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>Web App</title>
+    <title>Shine</title>
     <meta name="viewport" content="width=device-width,initial-scale=">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/modules.css">
+    <link rel="stylesheet" href="css/type.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Web app</h1>
 
-  <h2>Marwan's temorary heading</h2>
-  <h2>Alex's temporary heading</h2>
-  <h2>Dev lead's temorary heading</h2>
+  <section class="homepage wrapper grid">
+  <div class="unit xs-1 center-text">
+    <h1>Good morning, Thomas.</h1>
+  </div>
+
+    <div class="weather inline-block island-1-2 text-center unit xs-1">
+      <div class="unit x-1-2">
+        <a class="tena" href="#">4ºC</a>
+      </div>
+      <div class="unit x-1-2">
+        <h2 class="city">Ottawa</h2>
+        <h3>Sunny</h3>
+      </div>
+    </div>
+
+    <div class="card to-do unit xs-1 pad-b">
+      <h2>To Do</h2>
+      <div class="to-do-card">
+        <div>
+        <ul class="list-group">
+          <li>
+            <label class="container" for="grocery">Grocery Shopping
+            <input id="grocery" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="container" for="gift">Pick out birthday gift for Victoria
+              <input id="gift" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="container" for="exam">Study for math exam
+            <input id="exam" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="container" for="taxes">File taxes
+            <input id="taxes" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="news">
+
+    </div>
+  </div>
+
+</section>
+
 
 </body>
 </html>
