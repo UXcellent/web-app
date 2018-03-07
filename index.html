@@ -1,33 +1,33 @@
 <!DOCTYPE HTML>
 <html lang="en-ca">
 <head>
-    <meta charset="utf-8">
-    <title>Shine</title>
-    <meta name="viewport" content="width=device-width,initial-scale=">
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/modules.css">
-    <link rel="stylesheet" href="css/type.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="fonts/roboto-regular-webfont.woff" rel="preload">
-    <link href="fonts/roboto-light-webfont.woff" rel="preload">
-    <link href="fonts/roboto-bold-webfont.woff" rel="preload">
+  <meta charset="utf-8">
+  <title>Shine</title>
+  <meta name="viewport" content="width=device-width,initial-scale=">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/modules.css">
+  <link rel="stylesheet" href="css/type.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="fonts/roboto-regular-webfont.woff" rel="preload">
+  <link href="fonts/roboto-light-webfont.woff" rel="preload">
+  <link href="fonts/roboto-bold-webfont.woff" rel="preload">
 </head>
 
 <body>
 
   <section class="homepage wrapper grid">
   <div class="unit xs-1 center-text">
-    <h1>Good morning, Thomas.</h1>
+    <h1 itemprop="greeting">Good morning, Thomas.</h1>
   </div>
 
     <div class="weather inline-block island-1-2 text-center unit xs-1">
       <div class="unit x-1-2">
-        <a class="tena" href="#">4ºC</a>
+        <a itemprop="url" class="tena" href="#">4ºC</a>
       </div>
       <div class="unit x-1-2">
         <h2 class="city">Ottawa</h2>
-        <h3>Sunny</h3>
+        <h3 itemprop="weather">Sunny</h3>
       </div>
     </div>
 
@@ -35,7 +35,7 @@
       <h2>To Do</h2>
       <div class="to-do-card">
         <div>
-        <ul class="list-group">
+        <ul itemprop="list" class="list-group">
           <li>
             <label class="container" for="grocery">Grocery Shopping
             <input id="grocery" type="checkbox">
@@ -66,7 +66,7 @@
 
     </div>
 
-    <div class="news">
+    <div itemprop="news" class="news">
 
     </div>
   </div>
