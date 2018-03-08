@@ -3,5 +3,11 @@ html {
 }
 
 .gradient{
-  background: linear-gradient(#9eaea3, #fcecdd);
+  background: linear-gradient(to bottom, #9eaea3 0%, #fcecdd 50%, #FED59A 100%);
+  min-height: 100vh;
+}
+
+header {
+  font-weight: 100;
+  color: #626262
 }
