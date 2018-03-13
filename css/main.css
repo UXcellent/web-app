@@ -25,6 +25,13 @@ html {
   font-family: sans-serif;
   background: linear-gradient(to bottom, #9eaea3 0%, #fcecdd 50%, #fed59a 100%);
   min-height: 100vh;
+  color: #fff;
+  max-width: 100%;
+}
+
+body {
+  max-width: ;
+  margin: 0;
 }
 
 .fonts-loaded {
@@ -68,7 +75,7 @@ list-style-type: none;
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #eee;
+    border: solid white;
 }
 
 .container:hover input ~ .checkmark {
@@ -76,7 +83,7 @@ list-style-type: none;
 }
 
 .container input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: #ccc;
 }
 
 .checkmark:after {
@@ -107,7 +114,7 @@ list-style-type: none;
   font-style: normal;
   text-decoration: none;
   padding: 0;
-  background-color: red;
+  background-color: rgba(105, 105, 105, 0.2);
 }
 
 .card h2 {
@@ -133,4 +140,18 @@ padding: 0;
 
 .city {
   margin: 0;
+}
+
+.card-pad {
+  padding: 2em;
+}
+
+.temp {
+  text-decoration: none;
+  color: #fff;
+}
+
+.article-link {
+  text-decoration: none;
+  color: #fff;
 }
