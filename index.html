@@ -5,67 +5,109 @@
     <title>Shine</title>
     <meta name="viewport" content="width=device-width,initial-scale=">
     <link rel="stylesheet" href="css/modules.css">
-    <link rel="stylesheet" href="css/type.css">
     <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/type.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 </head>
 
-<body>
+<body class="pad-2">
+  <div class="custom-bg">
+    <input class="custom-bg-input" type="radio" name="background-color" id="bg-1-control">
+    <input class="custom-bg-input" type="radio" name="background-color" id="bg-2-control">
+    <input class="custom-bg-input" type="radio" name="background-color" id="bg-3-control">
+    <input class="custom-bg-input" type="radio" name="background-color" id="bg-4-control">
 
-  <section class="homepage wrapper grid">
+  </div>
+
+
+  <section class="homepage island grid">
   <div class="unit xs-1 center-text">
     <h1>Good morning, Thomas.</h1>
   </div>
 
-    <div class="weather inline-block island-1-2 text-center unit xs-1">
+    <div class="weather island-1-2 text-center unit xs-1">
       <div class="unit x-1-2">
-        <a class="tena" href="#">4ºC</a>
+        <a class="temp tena" href="#">4ºC</a>
       </div>
       <div class="unit x-1-2">
-        <h2 class="city">Ottawa</h2>
+        <h2 class="city peta">Ottawa</h2>
         <h3>Sunny</h3>
       </div>
     </div>
 
-    <div class="card to-do unit xs-1 pad-b">
-      <h2>To Do</h2>
-      <div class="to-do-card">
-        <div>
-        <ul class="list-group">
-          <li>
-            <label class="container" for="grocery">Grocery Shopping
-            <input id="grocery" type="checkbox">
-              <span class="checkmark"></span>
-            </label>
-          </li>
-          <li>
-            <label class="container" for="gift">Pick out birthday gift for Victoria
-              <input id="gift" type="checkbox">
-              <span class="checkmark"></span>
-            </label>
-          </li>
-          <li>
-            <label class="container" for="exam">Study for math exam
-            <input id="exam" type="checkbox">
-              <span class="checkmark"></span>
-            </label>
-          </li>
-          <li>
-            <label class="container" for="taxes">File taxes
-            <input id="taxes" type="checkbox">
-              <span class="checkmark"></span>
-            </label>
-          </li>
-        </ul>
+    <div class="card to-do unit xs-1">
+      <div class="card-pad">
+          <h2 class="center-text">To Do</h2>
+        <div class="to-do-card">
+          <ul class="list-group">
+            <li>
+              <label class="container" for="grocery">Grocery Shopping
+              <input id="grocery" type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </li>
+            <li>
+              <label class="container" for="gift">Pick out birthday gift for Victoria
+                <input id="gift" type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </li>
+            <li>
+              <label class="container" for="exam">Study for math exam
+              <input id="exam" type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </li>
+            <li>
+              <label class="container" for="taxes">File taxes
+              <input id="taxes" type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
       </div>
+    </div>
+
+  <div class="news">
+    <h2 class="unit xs-1 center-text">Daily News</h2>
+
+  <a class="article-link" href="http://www.cbc.ca/news/canada/ottawa/ottawa-byward-market-homeless-petition-1.4566126">
+    <div class="card article unit xs-1">
+      <div class="article-image unit xs-1">
+        <img class="img-flex" src="images/article-1.jpg" alt="">
+      </div>
+      <div class="article-text unit xs-1 island-1-2">
+        <h3 class="giga push-0">Petition likening ByWard Market shelters to cancer removed</h3>
+        <p></p>
+      </div>
+    </div>
+  </a>
+
+  <a class="article-link island" href="http://www.cbc.ca/news/canada/ottawa/cra-scam-taxes-canada-1.4564308">
+    <div class="card article">
+      <div class="article-image unit xs-1">
+        <img class="img-flex" src="images/article-2.jpg" alt="">
+      </div>
+      <div class="article-text unit xs-1 island-1-2">
+        <h3 class="giga">CRA scams on the rise as tax season gets underway</h3>
+        <p></p>
+      </div>
+    </div>
+  </a>
+
+    <div class="card article">
+      <div class="article-image unit xs-1">
+        <img class="img-flex" src="images/article-3.jpg" alt="">
+      </div>
+      <div class="article-text unit xs-1 island-1-2">
+        <h3 class="giga">Petition likening ByWard Market shelters to cancer removed</h3>
+        <p></p>
       </div>
 
     </div>
 
-    <div class="news">
-
-    </div>
   </div>
 
 </section>
