@@ -28,31 +28,32 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: normal 15px "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #fff;
+h2 {
+  font-size: 20px;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
 }
 
 a {
     background-color: #6b6b70;
+    font-size: 15px;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -60,28 +61,4 @@ a {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-}
-
-a:hover {
-    opacity:1;
-}
-
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #6b6b70;
-}
-
-.cancelbtn, .signupbtn {
-    float: left;
-    width: 100%;
-}
-
-.container {
-    padding: 16px;
-}
-
-@media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
 }
