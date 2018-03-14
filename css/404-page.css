@@ -23,7 +23,7 @@
 
 html {
   font-family: sans-serif;
-  background: linear-gradient(to bottom, #9eaea3 0%, #fcecdd 50%, #fed59a 100%);
+  background: linear-gradient(to bottom, #27aae1 0%, #fcecdd 50%, #1b75bc 100%);
   min-height: 100vh;
 }
 
@@ -61,4 +61,9 @@ a {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
 }
