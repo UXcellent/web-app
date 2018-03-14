@@ -40,14 +40,6 @@ section {
   max-width: 100%;
 }
 
-.options {
-  text-decoration: none;
-}
-
-ul {
-list-style-type: none;
-}
-
 .container {
     display: block;
     position: relative;
@@ -104,75 +96,4 @@ list-style-type: none;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-}
-
-.card {
-  border: 4px solid;
-  border-radius: 8px;
-  font-style: normal;
-  text-decoration: none;
-  padding: 0;
-  background-color: rgba(105, 105, 105, 0.2);
-}
-
-.card h2 {
-  color: #212121;
-}
-
-.card p {
-  color:;
-}
-
-.card:hover {
-  border-color: #e2e2e2;
-}
-
-.card:hover h2, .card:hover p, .card:hover svg {
-  fill: #f1f1f1;
-}
-
-.to-do-card {
-padding: 2em;
-}
-
-.card-pad {
-  padding: 0em 2em;
-}
-
-.city {
-  margin: 0;
-}
-
-.temp {
-  text-decoration: none;
-  color: #fff;
-}
-
-.article-link {
-  text-decoration: none;
-  color: #fff;
-}
-
-.news {
-  padding: 0em 2em;
-}
-
-.greeting {
-  margin: 0;
-}
-
-.temp, .city, .weather-cond {
-  font-weight: thin;
-}
-
-@media only screen and (min-width: 60em) {
-
-  html {
-    overflow: hidden;
-  }
-
-  .news-scroll {
-    height: 35em;
-    overflow: scroll;
-  }
 }
