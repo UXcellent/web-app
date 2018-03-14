@@ -32,13 +32,25 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: lighter;
+}
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #f1f1f1;
+    background: #fff;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -51,8 +63,8 @@ hr {
     margin-bottom: 25px;
 }
 
-button {
-    background-color: #4CAF50;
+a {
+    background-color: #6b6b70;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -62,28 +74,22 @@ button {
     opacity: 0.9;
 }
 
-button:hover {
+a:hover {
     opacity:1;
 }
 
 .cancelbtn {
     padding: 14px 20px;
-    background-color: #f44336;
+    background-color: #6b6b70;
 }
 
 .cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+    float: left;
+    width: 100%;
 }
 
 .container {
     padding: 16px;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 @media screen and (max-width: 300px) {
@@ -91,6 +97,22 @@ button:hover {
        width: 100%;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 >>>>>>> 5d16f23c78d38306cc273ea5d517c0522252486b
+=======
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bgimg {
+    position: absolute;
+}
+>>>>>>> f22fdd8e694e7e4b9d1fd0afba90a9d0b7ba0582
