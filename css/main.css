@@ -21,7 +21,7 @@
 
 html {
   font-family: sans-serif;
-  background: linear-gradient(to bottom, #9eaea3 0%, #fcecdd 50%, #fed59a 100%);
+  background: linear-gradient(to bottom, #27aae1 0%, #fcecdd 50%, #1b75bc 100%);
   min-height: 100vh;
   color: #fff;
   max-width: 100%;
@@ -112,7 +112,7 @@ list-style-type: none;
   font-style: normal;
   text-decoration: none;
   padding: 0;
-  background-color: rgba(105, 105, 105, 0.2);
+  background-color: rgba(105, 105, 105, 0.4);
 }
 
 .card h2 {
@@ -132,7 +132,7 @@ list-style-type: none;
 }
 
 .to-do-card {
-padding: 2em;
+padding: 0em 2em;
 }
 
 .card-pad {
